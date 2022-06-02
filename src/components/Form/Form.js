@@ -20,7 +20,7 @@ export default function Form({ onFormSubmit }) {
     };
 
     const handleChangeNumber = e => {
-        setName(e.target.value);
+        setNumber(e.target.value);
     };
     return (
         <div>
